@@ -1,0 +1,26 @@
+.topbg{width: 100%; background: url(../img/ny3.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 152px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+.gaiban{width: 1140px; margin: 0 auto; padding: 30px; background: #f6f6f6; margin-top: 50px;}
+.gaiban .gleft{float: left; margin-right: 45px;}
+.gaiban .gleft a img{width: 380px; height: 200px; display: block;}
+.gaiban .gright{width: 715px; float: left;}
+.gaiban .gright a h3{font-size: 16px; margin-bottom: 10px; color: #515151;}
+.gaiban .gright a p{line-height: 30px; color: #646464; font-size: 14px; height: 145px; overflow: hidden; padding: 0;}
+.gaiban .gright a:hover h3{color: #AF0C0C;}
+.gaiban .gright span{font-size: 14px; color: #a1a1a1; padding-top: 10px; display: block;}
+
+.content{width: 1200px; margin: 0 auto;}
+.content li{margin: 30px 10px 0 10px; background: #f6f6f6; padding: 20px 30px; width: 320px; display: block; box-shadow: 0px 0px 5px #eeeeee; float: left;}
+.content li h4{font-size: 16px; height: 35px; line-height: 30px; border-bottom: 1px solid #eeeeee; margin-bottom: 10px; color: #515151;}
+.content li img{width: 320px; height: 200px; margin-bottom: 10px;}
+.content li span{font-size: 14px; color: #a1a1a1; padding-top: 1px; display: block; padding-bottom: 5px;}
+.content li p{font-size: 12px; color: #646464; line-height: 28px; height: 120px;padding: 0;}
+.content li:hover{background: none;}
+.content li:hover h4{color: #AF0C0C;}
+
+.pages{margin: 3px; padding: 3px; text-align: center; margin-top: 30px; margin-bottom: 68px;}
+.pages a{border: 1px solid #dedfde; padding: 2px 8px; background-position: 50% bottom; color: #555; margin-right: 5px; font-size: 14px;}
+.pages a.bolds{font-weight: bold; color: #2b2b2b;}
+.pages a:hover{background: #2B2B2B; color: #FFFFFF; border-color: #2B2B2B;}

@@ -1,0 +1,22 @@
+.topbg{width: 100%; background: url(../img/ny1.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 152px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+
+.content{width: 1198px; margin: 0 auto; margin-top: 41px; margin-bottom: 65px;}
+.content>ul{float: left; width: 230px; box-shadow: 2px 2px 5px #a2a2a2; background: #f2f2f2; padding: 10px;}
+.content>ul li{cursor: pointer; height: 50px; display: block; text-align: left; line-height: 50px; border-bottom: 1px dotted #dddddd; background: #fff;}
+.content>ul li a{color: #515151; font-size: 16px; padding: 0px 10px;}
+.content>ul li a.hover{background:#535d7c; display: block; border:1px solid #2e395b; color: #fff;}
+.content .conright{float: right; width: 934px; height: 100%;}
+.content .conright h3{height: 51px; font-size: 16px; line-height: 51px; padding-left: 10px; color: #515151; background: #ffffff; padding-left: 15px; border-bottom: 5px solid #535d7c; margin-bottom: 10px;}
+.content .conright .case li{width: 275px; border: 1px solid #dddddd; padding: 5px; float: left; display: block; margin: 10px 10px; float: left;}
+.content .conright .case li a{width: 275px; height: 200px; position: relative; overflow: hidden; display: block;}
+.content .conright .case li img{height: 200px; width: 275px; transition: 0.3s; transform: translate3d(0,0,0);}
+.content .conright .case li:hover img{transform: scale(1.1,1.1);}
+.content .conright .case li span{width: 270px; padding-left: 5px; position: absolute; left: 0; bottom: 0; height: 50px; line-height: 50px; background: #525d7b; opacity: 0.9; transition: 0.3s; color: #fff; font-size: 16px;}
+
+.pages{margin: 3px; padding: 3px; text-align: center; margin-top: 30px; margin-bottom: 68px;}
+.pages a{border: 1px solid #dedfde; padding: 2px 8px; background-position: 50% bottom; color: #555; margin-right: 5px; font-size: 14px;}
+.pages a.bolds{font-weight: bold; color: #2b2b2b;}
+.pages a:hover{background: #2B2B2B; color: #FFFFFF; border-color: #2B2B2B;}

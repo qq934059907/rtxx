@@ -1,0 +1,16 @@
+.topbg{width: 100%; background: url(../img/ny4.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 152px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+
+.content{width: 1200px; margin: 0 auto; margin-bottom: 65px; color: #515151;}
+.content>div{background: #f6f6f6; margin-bottom: 20px;}
+.content h3{border-bottom: 1px solid #dddddd; padding: 30px 30px 10px 30px; height: 30px; line-height: 30px; font-size: 19px; color: #515151;}
+.content .yongren article{padding-top: 30px; padding-bottom: 60px; width: 1000px; height: 200px; margin: 0px auto; font-size: 14px; line-height: 30px; background: url(../img/zpbg1.jpg) no-repeat right 35px;}
+.content .yongren p{padding-left:60px;}
+.content .yongren p:nth-of-type(even){padding-left:130.5px;}
+
+.content .zhiwei .yingpin{padding-top: 30px; padding-bottom: 60px; width: 1000px; margin: 0px auto; font-size: 14px; line-height: 30px;}
+.content .zhiwei .yingpin p{padding:0 60px;}
+.content .zhiwei .yingpin .yp{text-align: right;}
+.content .zhiwei .yingpin .yp a{border-radius: 3px; overflow: hidden; padding: 0 20px; line-height: 35px; display: inline-block; border: 0; background: #c41305; color: #fff; font-size: 16px;}

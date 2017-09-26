@@ -1,0 +1,23 @@
+.topbg{width: 100%; background: url(../img/ny4.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 162px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+
+.content{width: 1200px; margin: 0 auto; margin-bottom: 65px; background: #fff;}
+.content .titss{width: 100%; margin-top: 10px; margin-bottom: 30px; text-align: center; padding-top: 20px;}
+.content .titss h3{font-size: 24px; color: #c41305;}
+.content .titss p{font-size: 18px; color: #515151; margin-top: 15px; line-height: 30px;}
+.content form{border: 1px solid #d6d6d6; margin: 10px auto; width: 1068px; padding: 20px; background-color: #ffffff;}
+.content .foms{width: 80%; margin: 0 auto; color: #515151;}
+.content .foms li{width: 100%; line-height: 50px; font-size: 16px;}
+.content .foms li span{width: 112px; text-align: right; float: left; padding-right: 9px;}
+.content .foms li input[type="text"]{font-size: 16px; box-sizing: border-box; width: 187px; color: #515151; float: left; margin-top: 10px; border: 1px solid #d6d6d6; line-height: 28px; height: 30px; padding: 0 5px; font-family: "隶书";}
+.content .foms li a{color: #515151;}
+.content .foms li a:hover{color: #C00C0C;}
+input:focus{outline: none !important;}
+.content .foms li input[type="radio"]{margin-right: 4px; display: inline-block;}
+.content .foms li textarea{border: 1px solid #d6d6d6; line-height: 22px; padding: 0 5px; resize: none; outline: none; width: 720px; height: 90px; margin: 13px 0; box-sizing: border-box;}
+.content .foms .texts{line-height: 21px;}
+.content .foms .yzm img{padding-left: 14px;cursor: pointer; float: left; margin-top: 19px;}
+.content .foms li p{padding: 20px 0; text-align: center; box-sizing: border-box;}
+.content .foms li p input{border-radius: 8px; overflow: hidden; width: 137px; margin: 0 5%; line-height: 40px; display: inline-block; border: 0; background: #c41305; font-size: 16px; color: #fff; cursor: pointer;}

@@ -1,0 +1,12 @@
+*{margin:0; padding:0;}
+ul,li,p,span,h1,h2,h3,h4,h5,h6,form,label,input,aside,section,header,footer,nav,dialog,figure{display:block;}
+ul{list-style:none;}
+a{text-decoration:none; outline:none;}
+/*img{width: 100%; display: block;}*/
+/*a:link{color:#383838;}
+a:visited{color:#383838;}
+a:hover{ color:red;}
+a:active{color:#383838;}*/
+.clearfix:after{ height:0; display:block; content:'.'; visibility:hidden; clear:both;}
+.ellipsis{white-space: nowrap;  text-overflow: ellipsis;  overflow: hidden; }
+body{ font-size:14px; font-family:"微软雅黑";}

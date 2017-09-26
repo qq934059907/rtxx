@@ -1,0 +1,28 @@
+.topbg{width: 100%; background: url(../img/ny3.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 152px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+
+.content{width: 1200px; margin: 0 auto; margin-bottom: 65px;}
+.content .jianj{background: #f6f6f6; margin-bottom: 20px;}
+.content .jleft{width: 220px; height: 160px; padding-top: 30px; background: #EC0000; text-align: center; float: left;}
+.content .jleft h3{font-size: 16px; line-height: 15px; height: 15px; margin-top: 20px; color: #fff;}
+.content .jleft img{margin-top: 20px;}
+.content .jright{float: left; width: 880px; display: block; font-size: 14px; line-height: 30px; color: #515151; padding: 15px 50px; margin-top: 20px;}
+.content .jright p{text-indent: 29px; padding: 0 60px;}
+
+
+.content .lian{background: #f6f6f6; margin-bottom: 20px;}
+.content .lian h3{font-weight: normal; color: #515151; border-bottom:1px solid #dddddd; padding:30px 30px 10px 30px; height:30px; line-height:30px;}
+.content .lian .dizhi{display: block; font-size: 14px; text-align: left; line-height: 25px; color: #515151; padding: 15px 50px;}
+.content .lian .dizhi p{line-height: 30px; text-indent: 2em; padding: 0 60px;}
+
+.content .state{background: #f6f6f6; margin-bottom: 20px;}
+.content .state h3{font-weight: normal; color: #515151; border-bottom:1px solid #dddddd; padding:30px 30px 10px 30px; height:30px; line-height:30px;}
+
+.content .state .stas{display: block; font-size: 14px; line-height: 25px; color: #515151; padding: 15px 50px;line-height: 30px;}
+.content .state h4{padding: 0 60px;}
+.content .state p{padding: 0 60px; text-indent: 29px;}
+
+
+

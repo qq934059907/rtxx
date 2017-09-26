@@ -1,0 +1,29 @@
+.topbg{width: 100%; background: url(../img/ny3.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 152px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+.gaiban{width: 1140px; margin: 0 auto; padding: 30px; background: #f6f6f6; margin-top: 50px; margin-bottom: 65px;}
+.gaiban h3{font-size: 20px; height: 35px; line-height: 30px; overflow: hidden; margin-bottom: 10px; text-align: center; color: #515151;}
+.gaiban>p:first-of-type{height: 30px; font-size: 14px; border: 1px #eeeeee solid; background: #f9f9f9; margin: 15px 0; color: #515151; line-height: 30px; text-align: center;}
+.gaiban>p a{color: #515151;}
+.gaiban>p a:hover{color: #AF0C0C;}
+.gaiban>p:nth-of-type(2),.gaiban>p:nth-of-type(3){text-align: center; padding-top: 40px;}
+.gaiban>p img{margin-bottom: 10px; margin-top: 10px;}
+.gaiban article p{line-height: 30px; color: #515151; font-size: 14px; text-indent: 28px; padding: 0 60px;}
+.gaiban article p a{color: #E53333; font-weight: bold;}
+.gaiban .gengduo{width: 165px; float: right; padding-top: 60px;}
+.gaiban .gengduo span{font-size: 12px; line-height: 18px!important; float: left; color: #515151;}
+.gaiban .gengduo a{width: 16px; height: 16px; display: inline-block; background: url(../img/gengduo.jpg) no-repeat; transition: .1s;}
+.gaiban .gengduo a:nth-of-type(2){background: url(../img/kongjian.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(3){background: url(../img/weibo.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(4){background: url(../img/yun.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(5){background: url(../img/weixin.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(1):hover{background: url(../img/gengduo2.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(2):hover{background: url(../img/kongjian2.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(3):hover{background: url(../img/weibo2.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(4):hover{background: url(../img/yun2.jpg) no-repeat;}
+.gaiban .gengduo a:nth-of-type(5):hover{background: url(../img/weixin2.jpg) no-repeat;}
+
+.tongc p:nth-of-type(1){text-align: center !important;}
+.tongc p{line-height: 30px; color: #515151; text-align: left !important; font-size: 16px; text-indent: 28.5px; padding: 0 0 !important;}
+.tongc .gengduo{padding-top: 30px;}

@@ -1,0 +1,21 @@
+.topbg{width: 100%; background: url(../img/ny1.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 152px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+
+.content{width: 1198px; margin: 0 auto; margin-top: 41px; margin-bottom: 65px;}
+.content ul{float: left; width: 230px; box-shadow: 2px 2px 5px #a2a2a2; background: #f2f2f2; padding: 10px;}
+.content ul li{cursor: pointer; height: 50px; display: block; text-align: left; line-height: 50px; border-bottom: 1px dotted #dddddd; background: #fff;}
+.content ul li a{color: #515151; font-size: 16px; padding: 0px 10px;}
+.content ul li a.hover{background:#535d7c; display: block; border:1px solid #2e395b; color: #fff;}
+.content ul li:hover a{background:#535d7c; display: block; border:1px solid #2e395b; border-top: 1px solid #dddddd; color: #FFF;}
+.content .conright{float: right; width: 934px; height: 100%;}
+.content .conright h3{height: 51px; font-size: 16px; line-height: 51px; padding-left: 10px; color: #515151; background: #ffffff; padding-left: 15px; border-bottom: 5px solid #535d7c;}
+.content .conright .imgs{padding: 30px; background: #f6f6f6; margin-top: 50px; line-height: 30px;}
+.content .conright .imgs img{width: 100%; margin-bottom: 10px; margin-top: 10px; text-align: center; }
+.content .conright .imgs img:nth-of-type(2){width: 100%; margin-bottom: 10px; margin-top: 0; text-align: center; }
+
+.conright .imgs h5{color: #515151; padding-top: 60px; line-height: 30px; font-size: 14px; text-align: center;}
+.conright .imgs>p{font-weight: bold; color: #515151; line-height: 30px; font-size: 14px; text-align: center;}
+.MsoNormal{padding: 0 60px;}
+.MsoNormal span{font-size: 9pt; display: inline-block; line-height: 30px !important; color: #515151;}

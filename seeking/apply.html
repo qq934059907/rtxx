@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>在线应聘-西安荣天信息技术有限公司</title>
+		<link rel="stylesheet" type="text/css" href="../css/animation.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/apply.css"/>
+		<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/gotop.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			function datacheck(){ 
+				if(document.myform.cname.value=="" || document.myform.cname.value.length<2){
+					alert("请输入姓名！");
+					document.myform.cname.focus();
+					return false;
+				}
+				
+				if(document.myform.education.value==""){
+					alert("请输入学历！");
+					document.myform.education.focus();
+					return false;
+				}
+				
+				if(document.myform.profession.value==""){
+					alert("请输入专业！");
+					document.myform.profession.focus();
+					return false;
+				}
+				
+				if (!document.myform.email.value.match(/^[\w]{1}[\w\.\-_]*@[\w]{1}[\w\-_\.]*\.[\w]{2,4}$/i)){
+					alert ("请输入有效的E-mail地址 ！");
+					document.myform.email.focus();
+					return false;
+				}
+				
+				var phone = document.myform.phone.value
+				var flag = false;
+		    	var myreg = /^(((13[0-9]{1})|(14[0-9]{1})|(17[0]{1})|(15[0-3]{1})|(15[5-9]{1})|(18[0-9]{1}))+\d{8})$/;       
+		    	if(phone == ''){
+					alert("请输入您的联系电话！");
+					document.myform.phone.focus();
+					return false;
+		    	}else if(phone.length !=11){
+					alert("请输入11位手机号码！");
+					document.myform.phone.focus();
+					return false;
+		    	}else if(!myreg.test(phone)){
+					alert("请输入有效的手机号码！");
+					document.myform.phone.focus();
+					document.myform.phone.value='';
+					return false;
+			    }else{
+			    	flag = true;
+			    }
+				
+				if(document.myform.address.value==""){
+					alert("请输入居住地址！");
+					document.myform.address.focus();
+					return false;
+				}
+				
+				if(document.myform.edu_exp.value==""){
+					alert("请输入教育经历！");
+					document.myform.edu_exp.focus();
+					return false;
+				}
+				
+				if(document.myform.work_exp.value==""){
+					alert("请输入工作经历！");
+					document.myform.work_exp.focus();
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="heade">
+				<a href="../index.html" title="西安荣天信息技术有限公司">
+					<img src="../img/logo1.png" alt="西安荣天信息技术有限公司">
+				</a>
+				<div>
+					<form>
+			        	<input type="text" onfocus="if(this.value=='请输入关键字'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键字';}" value="请输入关键字"/>
+						<input type="image" src="../img/ss.png" />
+			  		</form>
+			        <nav>
+				        <div class="nav">
+				            <ul class="clearfix">
+				              	<li><a href="../index.html" class='hovers'>网站首页 </a></li>
+				              	<li><a href="../news/news.html">新闻中心</a></li>
+				              	<li><a href="../service/service.html">产品与服务</a></li>
+				              	<li><a href="../typical/case.html">典型应用</a></li>
+				              	<li><a href="../after/after.html">售后服务</a></li>
+				              	<li><a href="../forms/forms.html">在线合作</a></li>
+				              	<li><a href="../about/about.html">关于我们</a></li>
+				            </ul>
+				        </div>
+			        </nav>
+			    </div>
+		    </div>
+		</header>
+		<div class="topbg">
+			<div class="tits">
+				<h2>求贤纳士</h2>
+				<p>源于您，圆予您</p>
+			</div>
+			<div class="content clearfix">
+				<div class="titss">
+					<h3>在线应聘</h3>
+					<p>请认真填写以下信息，我们将及时与您联系！</p>
+				</div>
+				<form action="apply.html" method="" onsubmit="return datacheck()" name="myform">
+					<ul class="foms">
+						<li class="clearfix">
+							<span>应聘岗位：</span><input type="text" name="job_title" value="Java工程师" readonly>&nbsp;[<a href="seek.html">选择</a>]</li>
+						<li class="clearfix">
+							<span>*姓名：</span><input type="text" name="cname"></li>
+						<li class="clearfix">
+							<span>*性别：</span><input type="radio" name="sex" value="男" checked>男
+							&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="女">女</li>
+						<li class="clearfix">
+							<span>*学历：</span><input type="text" name="education"></li>
+						<li class="clearfix">
+							<span>*专业：</span><input type="text" name="profession"></li>
+						<li class="clearfix">
+						<span>*电子邮箱：</span><input type="text" name="email"></li>
+						<li class="clearfix">
+						<span>*联系电话：</span><input type="text" name="phone" onKeyUp="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" style="ime-mode:disabled" maxlength="11"></li>
+						<li class="clearfix">
+							<span>*居住地址：</span><input type="text" name="address"></li>
+						<li class="clearfix texts">
+							<span>*教育经历：</span><textarea name="edu_exp" rows="5"></textarea></li>
+						<li class="clearfix texts">
+							<span>*工作经历：</span><textarea name="work_exp"></textarea></li>
+						<li class="clearfix yzm">
+							<span>*验证码：</span><input name="CheckCode" type="text" id="CheckCode" style="width:100px;" maxlength="4"><img src="img/GetCode.jpg" height="16"/></li>
+						<li><span>&nbsp;</span><p><input name="submit" type="submit" value="提交申请"></p></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div class="foottop">
+				<div class="clearfix">
+					<ul>
+						<li><h3><a href="../about/about.html">关于我们</a></h3></li>
+						<li><a href="../about/about.html">荣誉资质</a></li>
+						<li><a href="../about/about.html">企业简介</a></li>
+						<li><a href="../about/about.html">联系我们</a></li>
+						<li><a href="../about/about.html">法律声明</a></li>
+					</ul>
+					<ul>
+						<li><h3><a href="../service/service.html">产品与服务</a></h3></li>
+						<li><a href="../service/service.html">目录</a></li>
+						<li><a href="../service/goujian.html">智慧政务门户网站构建</a></li>
+						<li><a href="../service/guanli.html">智慧社区服务管理系统</a></li>
+						<li><a href="../service/pingtai.html">智慧党建服务平台</a></li>
+					</ul>
+					<ul>
+						<li><h3><a href="../seeking/seek.html">求贤纳士</a></h3></li>
+						<li><a href="../seeking/seek.html">最新职位</a></li>
+						<li><a href="../seeking/seek.html">用人理念</a></li>
+						<li><a href="../seeking/apply.html">在线应聘</a></li>
+					</ul>
+					<div class="lxrt">
+						<h4><a href="../about/about.html">联系荣天</a></h4>
+						<img src="../img/wx.jpg"/>
+					</div>
+					<div class="phones">
+						<h4><span><img src="../img/dh.png"/></span>400-651-2001 029-86698810</h4>
+						<p><span><img src="../img/dz.png"/></span>西安市西高新开发区高新四路15号丹枫国际商业广场C座24层</p>
+						<p><span><img src="../img/yx.png"/></span>xabpo@163.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="footbot">
+				<p>版权所有：西安荣天信息技术有限公司　西安盈世软件有限公司　陕ICP备12002913号 
+				<span>法律顾问：杨征律师</span></p>
+			</div>
+		</footer>
+		<a href="#" class="cd-top">top</a>
+		
+	</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>在线合作-西安荣天信息技术有限公司</title>
+		<link rel="stylesheet" type="text/css" href="../css/animation.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/forms.css"/>
+		<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/gotop.js" type="text/javascript" charset="utf-8"></script>
+		<script src="My97DatePicker/WdatePicker.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			function datacheck(){ 
+				if(document.myform.Name.value=="" || document.myform.Name.value.length<4){
+					alert("请输入单位名称！");
+					document.myform.Name.focus();
+					return false;
+				}
+				if(document.myform.link_man.value=="" || document.myform.link_man.value.length<2){
+					alert("请输入联系人！");
+					document.myform.link_man.focus();
+					return false;
+				}
+				var phone = document.myform.tel.value
+				var flag = false;
+				var myreg = /^(((13[0-9]{1})|(14[0-9]{1})|(17[0]{1})|(15[0-3]{1})|(15[5-9]{1})|(18[0-9]{1}))+\d{8})$/;
+			    if(phone == ''){
+					alert("请输入您的联系电话！");
+					document.myform.tel.focus();
+					return false;
+			    }else if(phone.length !=11){
+					alert("请输入11位手机号码！");
+					document.myform.tel.focus();
+					return false;
+			    }else if(!myreg.test(phone)){
+					alert("请输入有效的手机号码！");
+					document.myform.tel.focus();
+					document.myform.tel.value='';
+					return false;
+			    }else{
+			    	flag = true;
+			    }
+				if(document.myform.Content.value==""){
+					alert("请输入其他要求！");
+					document.myform.Content.focus();
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="heade">
+				<a href="../index.html" title="西安荣天信息技术有限公司">
+					<img src="../img/logo1.png" alt="西安荣天信息技术有限公司">
+				</a>
+				<div>
+					<form>
+			        	<input type="text" onfocus="if(this.value=='请输入关键字'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键字';}" value="请输入关键字"/>
+						<input type="image" src="../img/ss.png" />
+			  		</form>
+			        <nav>
+				        <div class="nav">
+				            <ul class="clearfix">
+				              	<li><a href="../index.html">网站首页 </a></li>
+				              	<li><a href="../news/news.html">新闻中心</a></li>
+				              	<li><a href="../service/service.html">产品与服务</a></li>
+				              	<li><a href="../typical/case.html">典型应用</a></li>
+				              	<li><a href="../after/after.html">售后服务</a></li>
+				              	<li><a href="../forms/forms.html" class='hovers'>在线合作</a></li>
+				              	<li><a href="../about/about.html">关于我们</a></li>
+				            </ul>
+				        </div>
+			        </nav>
+			    </div>
+		    </div>
+		</header>
+		<div class="topbg">
+			<div class="tits">
+				<h2>在线合作</h2>
+				<p>线上倾听您的想法，只为更好的如您所愿！</p>
+			</div>
+			<div class="content clearfix">
+				<div class="titss">
+					<h3>在线合作</h3>
+					<p>请认真填写以下信息，我们将第一时间与您联系，祝我们合作成功！</p>
+				</div>
+				<form action="forms.html" method="" onsubmit="return datacheck()" name="myform">
+					<ul class="ttext clearfix">
+						<li>
+							<span><em>*</em>单位名称:</span>
+							<p><input class="twc" name="Name"></p>
+						</li>
+						<li>
+							<span><em>*</em>联系人:</span>
+							<p>
+								<input class="" name="link_man" style="width:80px; float: left;">
+								<label><input name="sex" type="radio" class="" value="先生" checked>先生</label>
+								<label><input class="" type="radio" name="sex" value="女士">女士</label></p>
+						</li>
+						<li>
+							<span><em>*</em>联系电话:</span>
+							<p><input class="twc" name="tel" maxlength="11"></p>
+						</li>
+						<li>
+							<span>微信:</span>
+							<p><input class="twc" name="weixin"></p>
+						</li>
+						
+						<li>
+							<span>联系QQ:</span>
+							<p><input class="twc" name="qq"></p>
+						</li>
+						<li class="two_1_01">
+							<span>地址:</span>
+							<p><input class="twc" name="address"></p>
+						</li>
+					</ul>
+					<div class="xuyao clearfix">
+						<h4><span>*</span>您需要</h4>
+						<div>
+							<p><input name="mtype" type="radio" value="1" checked>门户网站建设</p>
+							<p><input type="radio" name="mtype" value="2">智慧党建系统</p>
+							<p><input type="radio" name="mtype" value="3">智慧社区系统</p>
+							<p><input type="radio" name="mtype" value="4">智慧团建系统</p>
+							<p><input type="radio" name="mtype" value="5">电商平台</p>
+							<p><input type="radio" name="mtype" value="6">智慧工会系统</p>
+	                        <p><input type="radio" name="mtype" value="7">APP开发</p>
+	                        <p><input type="radio" name="mtype" value="8">移动数字图书馆</p>
+                        </div>
+					</div>
+					<ul class="yaoqiu clearfix">
+						<li>
+							<span>费用预算:</span>
+							<p><input name="fee"><label style="padding-left: 5px; float: left;">元</label></p>
+						</li>
+						<li>
+							<span>要求完成时间:</span>
+							<p><input class="twc" style="background: url(img/tine.jpg) no-repeat right center; background-size: auto 100%; cursor: pointer;" name="succtime" onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})" readonly></p>
+						</li>
+						<li>
+							<span>*其他要求:</span>
+							<p><textarea rows="5" name="Content"></textarea></p>
+						</li>
+					</ul>
+					<div class="yanz clearfix">
+						<h4>*验证码：&nbsp;</h4>
+						<p><input type="text" id="CheckCode" maxlength="4"></p>
+						<span><img src="img/GetCode.jpg"/></span>
+					</div>
+					<div class="btns2">
+						<input type="submit" value="提交申请">
+						<input type="reset" value="重新填写">
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div class="foottop">
+				<div class="clearfix">
+					<ul>
+						<li><h3><a href="../about/about.html">关于我们</a></h3></li>
+						<li><a href="../about/about.html">荣誉资质</a></li>
+						<li><a href="../about/about.html">企业简介</a></li>
+						<li><a href="../about/about.html">联系我们</a></li>
+						<li><a href="../about/about.html">法律声明</a></li>
+					</ul>
+					<ul>
+						<li><h3><a href="../service/service.html">产品与服务</a></h3></li>
+						<li><a href="../service/service.html">目录</a></li>
+						<li><a href="../service/goujian.html">智慧政务门户网站构建</a></li>
+						<li><a href="../service/guanli.html">智慧社区服务管理系统</a></li>
+						<li><a href="../service/pingtai.html">智慧党建服务平台</a></li>
+					</ul>
+					<ul>
+						<li><h3><a href="../seeking/seek.html">求贤纳士</a></h3></li>
+						<li><a href="../seeking/seek.html">最新职位</a></li>
+						<li><a href="../seeking/seek.html">用人理念</a></li>
+						<li><a href="../seeking/apply.html">在线应聘</a></li>
+					</ul>
+					<div class="lxrt">
+						<h4><a href="../about/about.html">联系荣天</a></h4>
+						<img src="../img/wx.jpg"/>
+					</div>
+					<div class="phones">
+						<h4><span><img src="../img/dh.png"/></span>400-651-2001 029-86698810</h4>
+						<p><span><img src="../img/dz.png"/></span>西安市西高新开发区高新四路15号丹枫国际商业广场C座24层</p>
+						<p><span><img src="../img/yx.png"/></span>xabpo@163.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="footbot">
+				<p>版权所有：西安荣天信息技术有限公司　西安盈世软件有限公司　陕ICP备12002913号 
+				<span>法律顾问：杨征律师</span></p>
+			</div>
+		</footer>
+		<a href="#" class="cd-top">top</a>
+		
+	</body>
+</html>

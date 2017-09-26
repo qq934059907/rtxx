@@ -1,0 +1,49 @@
+.topbg{width: 100%; background: url(../img/ny5.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 162px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+
+.content{width: 1200px; margin: 0 auto; margin-bottom: 65px; background: #fff;}
+.content .titss{width: 100%; margin-top: 10px; margin-bottom: 30px; text-align: center; padding-top: 20px;}
+.content .titss h3{font-size: 24px; color: #c41305;}
+.content .titss p{font-size: 18px; color: #515151; margin-top: 15px; line-height: 30px;}
+.content form{border: 1px solid #d6d6d6; margin: 10px auto; width: 1068px; padding: 20px; background-color: #ffffff; padding-top: 59px;}
+.content .ttext{padding: 10px;}
+.content .ttext li{float: left; width: 33%; height: 50px; display: block; overflow: hidden; line-height: 30px; font-size: 14px; padding: 5px 0; box-sizing: border-box;}
+.content .ttext li span{float: left; text-align: right; width: 120px; color: #515151; margin-right: 10px; padding: 3px 0;}
+.content .ttext li span em{color: #f00; margin-right: 5px; font-style: normal;}
+.content .ttext li p{overflow: hidden; padding: 3px; color: #515151;}
+.content .ttext li input{box-sizing: border-box; border-radius: 0; height: 30px; line-height: 28px; outline: none !important; font-family: "微软雅黑"; border: 1px solid #D6D6D6; color: #515151; font-size: 14px; padding: 0 5px;}
+.content .ttext li input[type='radio']{display: block; float: left; margin: 0 5px;}
+.content .ttext li label{font-weight: normal; float: left;}
+li .twc{width: 200px;}
+
+.content .xuyao{border: 1px solid #D6D6D6; background: #F8F8F8; margin: 10px;}
+.content .xuyao h4{width: 15%; box-sizing: border-box; padding: 10px; float: left; font-weight: lighter; line-height: 60px; color: #515151;}
+.content .xuyao h4 span{color: #f00; float: left; margin-right: 5px;}
+.content .xuyao div{padding: 10px; width: 85%; box-sizing: border-box; float: left; color: #818181;}
+.content .xuyao div p{float: left; width: 25%; padding: 0; line-height: 30px;}
+.content .xuyao div p input[type='radio']{box-sizing: border-box; display: inline-block; margin-right: 5px;}
+
+.content .yaoqiu{margin: 10px; padding-top: 10px;}
+.content .yaoqiu li{float: left; width: 33%; height: 50px; display: block; overflow: hidden; line-height: 30px; font-size: 14px; padding: 5px 0; box-sizing: border-box;}
+.content .yaoqiu li span{float: left; text-align: right; width: 120px; color: #515151; margin-right: 10px; padding: 3px 0;}
+.content .yaoqiu li p{overflow: hidden; padding: 3px; color: #515151;}
+.content .yaoqiu li input{box-sizing: border-box; border-radius: 0; height: 30px; line-height: 28px; outline: none !important; font-family: "微软雅黑"; border: 1px solid #D6D6D6; color: #515151; font-size: 14px; padding: 0 5px;}
+.content .yaoqiu li:first-of-type input{width: 100px; float: left;}
+.content .yaoqiu li:last-of-type{width: 100%; padding: 15px 0 0; box-sizing: border-box; height: 100px;}
+.content .yaoqiu li textarea{border: 1px solid #d6d6d6; line-height: 22px; padding: 0 5px; resize: none; outline: none; width: 98%; height: 90px;}
+
+.content .yanz h4{width: 142px; height: 50px; line-height: 50px; text-align: right; font-size: 16px; font-weight: normal; color: #515151; float: left;}
+.content .yanz p{width: 117px; height: 40px; padding-top: 10px; float: left;}
+.content .yanz p input{box-sizing: border-box; width: 100px; border: 1px solid #d6d6d6; line-height: 28px; height: 30px; padding: 0 5px;}
+.content .yanz span{height: 16px; padding-top:19px; float: left;}
+.content .yanz span img{width: 64px;}
+
+.content .btns2{text-align: center; padding: 20px 0;}
+.content .btns2 input{border-radius: 8px; padding: 0 5%; margin: 0 5%; line-height: 42px; height: 40px; display: inline-block; border: 0; background: #d9d9d9; font-size: 16px; color: #515151;}
+.content .btns2 input:first-of-type{background: #c41305; color: #fff;}
+
+
+
+

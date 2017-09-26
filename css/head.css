@@ -1,0 +1,41 @@
+header{width: 100%; margin: 0 auto; position: fixed; height:100px; z-index: 9999; background: rgba(28,28,30,0.9);}
+.heade{width:1200px; margin:10px auto;}
+.heade>a{float: left;}
+header form{height:30px; width:245px; border-radius: 10px; float:right; margin-top:5px; margin-bottom:10px; margin-right:15px; background:#2e3251;}
+header form input[type="text"]{float:left; width:180px; margin-left:10px; background:none; height:26px; margin-top:2px; line-height:26px; color:#9799A8; font-size:14px; border: 0;}
+header form input:focus{outline: none;}
+header form input[type="image"]{float:right; display:block; margin-top:5px; margin-right:10px; border-left:1px solid #9799a8; padding-left:10px;}
+
+header nav{width:800px; float: right;}	
+header nav .nav{height:50px; width:800px; overflow:hidden;}
+header nav .nav ul li{float:left; text-align:center; height:50px; line-height:50px; width:105px; margin-right:5px;}
+header nav .nav ul li a{color:#93a2b3; font-size:18px; display:block;}
+header nav .nav a:hover,nav .nav .hovers{color:#ffffff; background:url(../img/hover.png) repeat-x 0 0;}
+
+footer{width: 100%; background: #f7f7f7;}
+footer .foottop{width: 100%; background: url(../img/lou.jpg) no-repeat right bottom; padding-top: 65px;}
+footer .foottop>div{width: 1200px; margin: 0 auto;}
+footer .foottop ul{width: 180px; float: left; background: url(../img/index_f1.png) no-repeat 0px 3px; border-right: 1px dashed #dddddd; margin-right: 20px; padding-left: 20px; padding-bottom: 65px;}
+footer .foottop ul:nth-of-type(2){background: url(../img/index_f2.png) no-repeat 0px 4px;}
+footer .foottop ul:nth-of-type(3){background: url(../img/index_f3.png) no-repeat 0px 4px;  padding-left: 23px; width: 150px;}
+footer .foottop ul li{width: 220px; float: left;}
+footer .foottop ul li h3{display: block; font-size: 20px; line-height: 28px; padding-left: 5px; color: #525d7b; margin-bottom: 10px;}
+footer .foottop ul li h3 a{color: #525d7b;}
+footer .foottop ul li>a{display: block; line-height: 30px; white-space: nowrap; color: #515151; padding-left: 10px; font-size: 14px;}
+footer .foottop .lxrt{width: 120px; display: block; float: left; margin-right: 20px;}
+footer .foottop .lxrt h4{line-height: 28px; font-size: 20px; margin-bottom: 10px; padding-left: 5px;}
+footer .foottop .lxrt h4 a{color: #525d7b;}
+footer .foottop .phones{width: 400px; padding-top: 35px; float: left;}
+footer .foottop .phones h4{font-size: 22px; height: 30px; color: #515151;}
+footer .foottop .phones p{font-size: 14px; display: block; line-height: 30px;padding-right: 10px; padding-top: 5px; color: #515151;}
+footer .foottop .phones p:nth-of-type(1) span{padding-bottom: 20px; padding-top: 7px;}
+footer .foottop .phones p:nth-of-type(2) span{padding-top: 2px;}
+footer .foottop .phones span{width: 30px; padding-right: 20px; float: left; height: 30px;}
+footer .foottop .phones span img{width: 100%;}
+
+footer .footbot{width: 100%; background: #dfdfdf;}
+footer .footbot p{height: 50px; line-height: 50px; overflow: hidden; font-size: 14px; color: #515151; width: 1200px; margin: 0 auto;}
+footer .footbot span{float: right;}
+
+.cd-top {display: inline-block; height:50px; width: 60px; position: fixed; bottom:10px; right:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); overflow: hidden;text-indent: 100%; white-space: nowrap; background:url(../img/fh.jpg) no-repeat; visibility: hidden; opacity: 0; transition: all 0.3s;}
+.cd-top.cd-is-visible {visibility: visible;opacity: 1;}

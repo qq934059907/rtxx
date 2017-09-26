@@ -1,0 +1,19 @@
+.topbg{width: 100%; background: url(../img/ny2.jpg) no-repeat top center;}
+.tits{width: 1200px; padding-top: 152px; margin: 0 auto;}
+.tits h2{font-size: 28px; color: #ffffff; font-weight: 100; margin-bottom: 15px;}
+.tits p{font-size: 18px; color: #ffffff; font-weight: 100; margin-bottom: 15px; height: 30px;}
+
+.content{width: 1200px; margin: 0 auto; margin-bottom: 65px;}
+.content h3{font-size: 24px; color: #000; font-weight: 100; line-height: 60px; padding-left: 15px;}
+.content>div{background: #f6f6f6; margin-bottom: 20px;}
+.content h4{border-bottom: 1px solid #dddddd; padding: 30px 30px 10px 30px; height: 30px; line-height: 30px; font-size: 19px; color: #515151;}
+
+.cuoshi ul{padding: 15px; margin-bottom: 20px;}
+.cuoshi ul li{float: left; width: 150px; display: block; margin: 15px 30px; text-align: center;}
+.cuoshi ul li img{width: 80px; display: block; margin-left: 35px;}
+.cuoshi ul li span{width: 150px; display: block; font-size: 15px; text-align: center; height: 35px; line-height: 35px; color: #515151;}
+
+.linian{padding-bottom: 30px;}
+.linian p{padding-left: 60px; line-height: 31px; font-size: 14px; color: #515151;}
+
+
